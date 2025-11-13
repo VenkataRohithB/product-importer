@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product Importer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">PI</div>
+    <button class="nav-btn active" data-tab="products">Products</button>
+    <button class="nav-btn" data-tab="upload">Upload</button>
+    <button class="nav-btn" data-tab="webhooks">Webhooks</button>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+
+    <!-- PRODUCTS PANEL -->
+    <section id="products" class="panel">
+      <div class="panel-head">
+        <div class="title-wrap">
+          <h1>Products</h1>
+          <p class="subtitle">Search, add, edit, delete, paginate</p>
+        </div>
+
+        <div class="actions">
+          <input id="q" class="search" placeholder="Search SKU" />
+          <button class="btn" id="btnAdd">Add</button>
+          <button class="btn danger" id="btnDeleteAll">Delete All</button>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table id="productTable">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="pagination">
+        <button id="prev" class="page-btn">&larr;</button>
+        <span id="pageInfo">Page 1</span>
+        <button id="next" class="page-btn">&rarr;</button>
+      </div>
+    </section>
+
+    <!-- UPLOAD PANEL -->
+    <section id="upload" class="panel hidden">
+      <h1>Upload CSV</h1>
+      <p class="subtitle">Supports large files up to 500k rows. Duplicates update by SKU.</p>
+
+      <div class="upload-card">
+        <input type="file" id="csvFile" accept=".csv" />
+        <button class="btn primary" id="btnUpload">Upload</button>
+        <div id="uploadStatus" class="muted"></div>
+
+        <div id="progressWrapper" class="progress hidden">
+          <div id="progressFill"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEBHOOK PANEL -->
+    <section id="webhooks" class="panel hidden">
+      <div class="panel-head">
+        <div class="title-wrap">
+          <h1>Webhooks</h1>
+          <p class="subtitle">Manage webhook URLs, events, and triggers</p>
+        </div>
+        <div class="actions">
+          <button class="btn" id="btnAddWebhook">Add Webhook</button>
+          <button class="btn" id="btnRefreshWebhooks">Refresh</button>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table id="webhookTable">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+    </section>
+
+  </main>
+</div>
+
+<!-- MODAL + TOAST -->
+<div id="modal" class="modal hidden"></div>
+<div id="toastWrap" class="toast-wrap"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
