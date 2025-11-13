@@ -1,4 +1,101 @@
 sku,name,description
-ABC123,T-Shirt,Black cotton
-XYZ999,Shoes,Running shoes
-PQR456,Hat,Baseball cap
+ROB001,Servo Motor A1,High torque micro servo for precise motion control
+ROB002,Servo Motor A2,Metal gear servo for robotic arms
+ROB003,Servo Motor A3,Waterproof servo for industrial robotics
+ROB004,Servo Motor A4,Lightweight servo for educational robots
+ROB005,Servo Motor A5,High-speed servo for autonomous vehicles
+ROB006,Linear Actuator L1,Compact linear actuator for robotic lifts
+ROB007,Linear Actuator L2,High-force actuator for industrial pushes
+ROB008,Linear Actuator L3,Mini actuator for small robots
+ROB009,Linear Actuator L4,Precision actuator with metal housing
+ROB010,Linear Actuator L5,Silent actuator for robotics labs
+ROB011,Stepper Motor S1,1.8 degree stepper for CNC robots
+ROB012,Stepper Motor S2,High precision stepper for automation
+ROB013,Stepper Motor S3,Heavy duty stepper for robotic bases
+ROB014,Stepper Motor S4,Low heat stepper for long runtime
+ROB015,Stepper Motor S5,Micro stepper for small robots
+ROB016,Motor Driver MD1,Dual H-bridge driver for DC motors
+ROB017,Motor Driver MD2,High current motor driver for robots
+ROB018,Motor Driver MD3,Compact driver for 4-wheel robots
+ROB019,Motor Driver MD4,Brushless driver for modern robotics
+ROB020,Motor Driver MD5,Advanced driver with thermal protection
+ROB021,Lidar Sensor LID1,360-degree lidar for mapping
+ROB022,Lidar Sensor LID2,Short-range lidar for indoor bots
+ROB023,Lidar Sensor LID3,Long-range lidar for outdoor robots
+ROB024,Lidar Sensor LID4,High resolution lidar for SLAM
+ROB025,Lidar Sensor LID5,Mini lidar for microbots
+ROB026,Ultrasonic Sensor US1,Distance sensor for obstacle detection
+ROB027,Ultrasonic Sensor US2,Waterproof ultrasonic module
+ROB028,Ultrasonic Sensor US3,Wide-angle ultrasonic array
+ROB029,Ultrasonic Sensor US4,Short-range precision ultrasonic
+ROB030,Ultrasonic Sensor US5,Multi-sensor ultrasonic hub
+ROB031,Infrared Sensor IR1,Line follower IR module
+ROB032,Infrared Sensor IR2,Obstacle IR detection sensor
+ROB033,Infrared Sensor IR3,Industrial-grade IR sensing unit
+ROB034,Infrared Sensor IR4,Precision IR signal receiver
+ROB035,Infrared Sensor IR5,IR array for motion tracking
+ROB036,Gyroscope GY1,3-axis gyro for robot stabilization
+ROB037,Gyroscope GY2,6-axis IMU module
+ROB038,Gyroscope GY3,High-speed gyro for drones
+ROB039,Gyroscope GY4,Precision IMU with temperature compensation
+ROB040,Gyroscope GY5,Compact IMU for small robots
+ROB041,Accelerometer ACC1,3-axis accelerometer
+ROB042,Accelerometer ACC2,Drop detection accelerometer
+ROB043,Accelerometer ACC3,High g-force accelerometer
+ROB044,Accelerometer ACC4,Low noise accelerometer
+ROB045,Accelerometer ACC5,High sensitivity accelerometer
+ROB046,Camera CAM1,HD camera for vision systems
+ROB047,Camera CAM2,Infrared night vision camera
+ROB048,Camera CAM3,Wide-angle robotic camera
+ROB049,Camera CAM4,4K industrial robotics camera
+ROB050,Camera CAM5,Mini camera module for microbots
+ROB051,Robotic Arm RA1,3-axis robotic arm
+ROB052,Robotic Arm RA2,5-axis precision arm
+ROB053,Robotic Arm RA3,7-axis industrial robotic arm
+ROB054,Robotic Arm RA4,Mini arm for education
+ROB055,Robotic Arm RA5,Heavy-duty automation arm
+ROB056,Gripper GR1,2-finger robotic gripper
+ROB057,Gripper GR2,3-finger adaptive gripper
+ROB058,Gripper GR3,Soft silicon gripper for fragile objects
+ROB059,Gripper GR4,Pneumatic robotic gripper
+ROB060,Gripper GR5,Electromagnetic gripper head
+ROB061,Wheel WH1,High traction wheel set
+ROB062,Wheel WH2,Omnidirectional wheel
+ROB063,Wheel WH3,Mecanum wheel for holonomic motion
+ROB064,Wheel WH4,All-terrain wheel
+ROB065,Wheel WH5,Lightweight wheel set
+ROB066,Chassis CH1,Aluminum robot chassis
+ROB067,Chassis CH2,4-wheel robot base
+ROB068,Chassis CH3,Tracked robot chassis
+ROB069,Chassis CH4,Compact robot frame
+ROB070,Chassis CH5,Heavy duty robotics base
+ROB071,Power Module PM1,5V power regulation module
+ROB072,Power Module PM2,12V/24V robotics PSU
+ROB073,Power Module PM3,High efficiency buck converter
+ROB074,Power Module PM4,Dual output robotics power block
+ROB075,Power Module PM5,Battery management module
+ROB076,Battery BAT1,Li-ion robotics battery
+ROB077,Battery BAT2,High capacity battery pack
+ROB078,Battery BAT3,Rechargeable robotics battery
+ROB079,Battery BAT4,Industrial-grade power cell
+ROB080,Battery BAT5,Compact lithium pack
+ROB081,CPU Board CPU1,ARM Cortex control board
+ROB082,CPU Board CPU2,Quad-core robotics CPU
+ROB083,CPU Board CPU3,AI compute module
+ROB084,CPU Board CPU4,Microcontroller platform
+ROB085,CPU Board CPU5,Edge computing robotics board
+ROB086,Arduino UNO R3,Classic microcontroller board
+ROB087,Arduino Mega,Mega-sized microcontroller board
+ROB088,ESP32 Dev Board,WiFi + Bluetooth robotics microcontroller
+ROB089,Raspberry Pi 4,Single board computer for robotics
+ROB090,Raspberry Pi Zero,Compact SBC for microbots
+ROB091,Switch SW1,Mini toggle switch
+ROB092,Switch SW2,Push button switch
+ROB093,Switch SW3,Power slide switch
+ROB094,Switch SW4,Heavy duty industrial switch
+ROB095,Switch SW5,Soft touch robotics switch
+ROB096,Connector CN1,3-pin connector
+ROB097,Connector CN2,4-pin JST connector
+ROB098,Connector CN3,Servo extension cable
+ROB099,Connector CN4,Waterproof connector set
+ROB100,Connector CN5,High current robotics connector
